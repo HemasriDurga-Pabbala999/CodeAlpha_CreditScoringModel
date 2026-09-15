@@ -1,0 +1,22 @@
+
+===== CREDIT SCORING MODEL RESULTS =====
+Accuracy : 0.8292
+Precision: 0.8110
+Recall   : 0.8583
+F1-Score : 0.8340
+ROC-AUC  : 0.9054
+
+===== CLASSIFICATION REPORT =====
+                  precision    recall  f1-score   support
+
+Not Creditworthy       0.85      0.80      0.82       120
+    Creditworthy       0.81      0.86      0.83       120
+
+        accuracy                           0.83       240
+       macro avg       0.83      0.83      0.83       240
+    weighted avg       0.83      0.83      0.83       240
+
+
+===== SAMPLE PREDICTION =====
+Prediction: Creditworthy
+Probability of Creditworthy: 92.60%
